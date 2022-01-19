@@ -20,6 +20,7 @@ function NavbarComponent() {
         {/* Buttomn */}
         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
           <Nav>
+            <hr width="100%" color="black" />
             <Nav.Link>
               <h6>Portfolio</h6>
             </Nav.Link>

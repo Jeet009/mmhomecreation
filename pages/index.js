@@ -4,6 +4,7 @@ import styles from "../styles/pages.module.css";
 export default function Home() {
   return (
     <div className={styles.container}>
+      {/* Top Banner  */}
       <main className={styles.main}>
         <div className={styles.overlay}>
           <h4>Welcome To</h4>
@@ -12,6 +13,7 @@ export default function Home() {
         </div>
       </main>
 
+      {/* Fact  */}
       <div className={styles.gist}>
         <Row>
           <Col md={12} lg={6} className={styles.gistImage}>
@@ -36,6 +38,27 @@ export default function Home() {
         </Row>
       </div>
 
+      {/* Home  */}
+      <div className={styles.gist}>
+        <Row>
+          <Col md={12} lg={6} className={styles.bgText}>
+            <div>
+              <Badge>MM Home Creation .</Badge>
+              <h1>HOME . SWEET . HOME</h1>
+              <p>
+                Dolor non qui cupidatat cillum nulla pariatur aliquip commodo
+                voluptate veniam pariatur labore adipisicing. Esse ut incididunt
+                aliqua consequat laborum est tempor incididunt. Nisi eiusmod
+                dolor est officia. Dolor non qui cupidatat cillum nulla pariatur
+                aliquip commodo voluptate veniam pariatur labore adipisicing.
+              </p>
+              <hr width="40%" />
+            </div>
+          </Col>
+          <Col md={12} lg={6} className={styles.bgImage}></Col>
+        </Row>
+      </div>
+      {/* Footer  */}
       <footer className={styles.footer}>
         <a>MM Home Creation .</a>
       </footer>
