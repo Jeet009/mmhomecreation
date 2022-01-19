@@ -1,7 +1,7 @@
 import React from "react";
 
-function livingspace() {
+function Livingspace() {
   return <div>Living Space</div>;
 }
 
-export default livingspace;
+export default Livingspace;

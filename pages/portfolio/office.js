@@ -1,7 +1,7 @@
 import React from "react";
 
-function office() {
+function Office() {
   return <div>Office</div>;
 }
 
-export default office;
+export default Office;

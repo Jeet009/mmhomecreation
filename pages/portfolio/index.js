@@ -1,7 +1,7 @@
 import React from "react";
 
-function index() {
+function Portfolio() {
   return <div>Portfolio</div>;
 }
 
-export default index;
+export default Portfolio;

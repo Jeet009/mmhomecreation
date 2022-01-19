@@ -1,7 +1,7 @@
 import React from "react";
 
-function kitchen() {
+function Kitchen() {
   return <div>Kitchen</div>;
 }
 
-export default kitchen;
+export default Kitchen;
