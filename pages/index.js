@@ -1,4 +1,3 @@
-import Head from "next/head";
 import { Badge, Col, Row } from "react-bootstrap";
 import styles from "../styles/Home.module.css";
 
