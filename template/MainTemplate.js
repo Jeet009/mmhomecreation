@@ -1,6 +1,5 @@
 import React from "react";
 import Head from "next/head";
-import styles from "./main.module.css";
 import NavbarComponent from "../components/NavbarComponent";
 
 function MainTemplate({ children }) {
