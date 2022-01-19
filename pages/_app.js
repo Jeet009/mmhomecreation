@@ -1,5 +1,5 @@
-import "../styles/globals.css";
 import MainTemplate from "../template/MainTemplate";
+import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
   return (
