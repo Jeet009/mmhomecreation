@@ -1,17 +1,35 @@
-import React from "react";
+import Link from "next/link";
+import React, { useContext } from "react";
+import { ModalContext } from "../context/ModalContext";
 import styles from "./footer.module.css";
 
 function FooterWidget() {
+  const { setModal } = useContext(ModalContext);
+  const handleModalOpen = () => {
+    setModal(true);
+  };
   return (
     <div className={styles.widget}>
       <h1>MM</h1>
       <h2>Home Creation .</h2>
       <hr color="white" width="50%" />
       <div className={styles.navItem}>
-        <a href="#home">HOME</a>
-        <a href="#home">PORTFOLIO</a>
-        <a href="#home">ABOUT</a>
-        <a href="#home">CONTACT</a>
+        <a href="#home">
+          {" "}
+          <Link href="/">HOME</Link>
+        </a>
+        <a href="#home" onClick={handleModalOpen}>
+          {" "}
+          PORTFOLIO
+        </a>
+        <a href="#home">
+          {" "}
+          <Link href="/about">ABOUT</Link>
+        </a>
+        <a href="#home">
+          {" "}
+          <Link href="/contact">CONTACT</Link>
+        </a>
       </div>
       <br />
       <div className={styles.navItem}>

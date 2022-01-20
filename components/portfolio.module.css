@@ -1,0 +1,34 @@
+.portfolio {
+  background-color: black;
+  min-height: 90vh;
+}
+.portfolio h1 {
+  font-family: "Dancing Script", cursive;
+  font-size: 10vh;
+  color: white !important;
+}
+.portfolio h2 {
+  font-size: 2vh;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 1px;
+  color: white !important;
+}
+.portfolioDiv {
+  min-height: 30vh;
+  background-color: aliceblue;
+  border-radius: 5px;
+  margin: 5px;
+  background-size: cover;
+}
+.overlay {
+  background-color: rgba(109, 109, 109, 0.699);
+  min-height: 30vh;
+  backdrop-filter: blur(1px);
+  border-radius: 5px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

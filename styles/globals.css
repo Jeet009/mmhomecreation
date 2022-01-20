@@ -37,6 +37,11 @@ a {
   background-color: rgb(36, 36, 36);
 }
 
+.btn-custom-white {
+  background-color: white;
+  color: black;
+  min-width: 100%;
+}
 .navbar-toggler:focus,
 .navbar-toggler:active,
 .navbar-toggler-icon:focus {

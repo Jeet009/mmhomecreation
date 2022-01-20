@@ -1,11 +1,14 @@
 import MainTemplate from "../template/MainTemplate";
 import "../styles/globals.css";
+import { ModalProvider } from "../context/ModalContext";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <MainTemplate>
-      <Component {...pageProps} />
-    </MainTemplate>
+    <ModalProvider>
+      <MainTemplate>
+        <Component {...pageProps} />
+      </MainTemplate>
+    </ModalProvider>
   );
 }
 
