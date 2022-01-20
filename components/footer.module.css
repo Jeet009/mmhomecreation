@@ -1,0 +1,28 @@
+.widget {
+  min-height: 40vh;
+  background-color: black;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  color: white;
+}
+.widget h1 {
+  font-family: "Dancing Script", cursive;
+  font-size: 5vh;
+  color: white !important;
+}
+.navItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navItem a {
+  margin-left: 20px;
+  font-size: 25px;
+}
+.navItem a:hover {
+  color: aliceblue;
+}

@@ -1,4 +1,4 @@
-import { Badge, Col, Row } from "react-bootstrap";
+import { Badge, Col, Container, Row } from "react-bootstrap";
 import styles from "../styles/pages.module.css";
 
 export default function Home() {
@@ -14,7 +14,7 @@ export default function Home() {
       </main>
 
       {/* Fact  */}
-      <div className={styles.gist}>
+      <div className={styles.div}>
         <Row>
           <Col md={12} lg={6} className={styles.gistImage}>
             <img src="assets/fact.png" />
@@ -39,12 +39,12 @@ export default function Home() {
       </div>
 
       {/* Home  */}
-      <div className={styles.gist}>
+      <div className={styles.div}>
         <Row>
           <Col md={12} lg={6} className={styles.bgText}>
             <div>
               <Badge>MM Home Creation .</Badge>
-              <h1>HOME . SWEET . HOME</h1>
+              <h1>HOME .</h1>
               <p>
                 Dolor non qui cupidatat cillum nulla pariatur aliquip commodo
                 voluptate veniam pariatur labore adipisicing. Esse ut incididunt
@@ -58,10 +58,41 @@ export default function Home() {
           <Col md={12} lg={6} className={styles.bgImage}></Col>
         </Row>
       </div>
-      {/* Footer  */}
-      <footer className={styles.footer}>
-        <a>MM Home Creation .</a>
-      </footer>
+
+      {/* image  */}
+      <div className={styles.div}>
+        <Row>
+          <Col md={12} lg={6} className={styles.ImgOne}>
+            <div className={styles.overlaySm}>
+              <h2>Let us help you to build an office !</h2>
+            </div>
+          </Col>
+          <Col md={12} lg={6} className={styles.ImgTwo}>
+            <div className={styles.overlaySm}>
+              <h2>Looking for an aesthetic kitchen ?</h2>
+            </div>
+          </Col>
+        </Row>
+      </div>
+
+      <div className={styles.div}>
+        <div className={styles.hire}>
+          <h1>Hire Us!</h1>
+          <Container>
+            <p>
+              Ea aliqua officia est nostrud duis fugiat quis est qui occaecat
+              adipisicing voluptate eu occaecat. Dolor non laboris ex ipsum ea
+              officia tempor est ea aliqua mollit. Irure ipsum dolor consectetur
+              ipsum enim eiusmod aliqua ut non minim reprehenderit et. Consequat
+              voluptate proident ex dolor ut ullamco amet cillum ut do in. Et
+              velit dolor duis Lorem. Anim in ea laborum duis fugiat consequat
+              do. Commodo id esse magna culpa ullamco culpa aliquip enim.
+            </p>
+
+            <button className="btn btn-custom">Hire Us . </button>
+          </Container>
+        </div>
+      </div>
     </div>
   );
 }

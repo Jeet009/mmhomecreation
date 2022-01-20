@@ -1,6 +1,8 @@
 import React from "react";
 import Head from "next/head";
 import NavbarComponent from "../components/NavbarComponent";
+import styles from "../styles/pages.module.css";
+import FooterWidget from "../components/FooterWidget";
 
 function MainTemplate({ children }) {
   return (
@@ -25,10 +27,12 @@ function MainTemplate({ children }) {
       <div>
         <NavbarComponent />
         {children}
+        <FooterWidget />
       </div>
 
       {/* Footer */}
-      <footer>
+      <footer className={styles.footer}>
+        <a>MM Home Creation .</a>
         <script
           src="https://unpkg.com/react/umd/react.production.min.js"
           crossOrigin="anonymous"
