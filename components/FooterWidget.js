@@ -14,10 +14,6 @@ function FooterWidget() {
       <h2>Home Creation .</h2>
       <hr color="white" width="50%" />
       <div className={styles.navItem}>
-        <a href="#home">
-          {" "}
-          <Link href="/">HOME</Link>
-        </a>
         <a href="#home" onClick={handleModalOpen}>
           {" "}
           PORTFOLIO
