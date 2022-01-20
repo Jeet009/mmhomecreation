@@ -21,7 +21,7 @@
 }
 .navItem a {
   margin-left: 20px;
-  font-size: 25px;
+  font-size: 2vh;
 }
 .navItem a:hover {
   color: aliceblue;

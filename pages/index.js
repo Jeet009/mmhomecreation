@@ -1,17 +1,19 @@
 import { Badge, Col, Container, Row } from "react-bootstrap";
+import TopBannerComponent from "../components/TopBannerComponent";
 import styles from "../styles/pages.module.css";
 
 export default function Home() {
   return (
     <div className={styles.container}>
-      {/* Top Banner  */}
-      <main className={styles.main}>
-        <div className={styles.overlay}>
-          <h4>Welcome To</h4>
-          <h1>MM </h1>
-          <h2>Home Creation .</h2>
-        </div>
-      </main>
+      <TopBannerComponent
+        data={{
+          h1: "MM",
+          h2: "HOME CREATION",
+          h4: "Welcome To",
+          imgUrl:
+            "https://images.pexels.com/photos/706144/pexels-photo-706144.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+        }}
+      />
 
       {/* Fact  */}
       <div className={styles.div}>

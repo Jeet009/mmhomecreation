@@ -1,0 +1,28 @@
+/* Main  */
+.main {
+  min-height: 85vh;
+  background-size: cover;
+  background-position: bottom;
+}
+.overlay {
+  min-height: 85vh;
+  background-color: rgba(36, 36, 36, 0.603);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  color: white !important;
+}
+.overlay h1 {
+  font-family: "Dancing Script", cursive;
+  font-size: 20vh;
+  color: white !important;
+}
+.overlay h2 {
+  font-size: 4vh;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 1px;
+}

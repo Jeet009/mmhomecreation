@@ -49,3 +49,6 @@ a {
 h1 {
   color: rgb(36, 36, 36);
 }
+.extraMargin {
+  margin-top: 15vh;
+}

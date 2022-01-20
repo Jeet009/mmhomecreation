@@ -24,7 +24,7 @@ function NavbarComponent() {
             <Nav.Link>
               <h6>Portfolio</h6>
             </Nav.Link>
-            <Nav.Link>
+            <Nav.Link href="about">
               <h6>About</h6>
             </Nav.Link>
             <Nav.Link>
