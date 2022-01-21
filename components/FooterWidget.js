@@ -29,8 +29,24 @@ function FooterWidget() {
       </div>
       <br />
       <div className={styles.navItem}>
-        <a href="#home" className="fa fa-instagram"></a>
-        <a href="#home" className="fa fa-facebook-square"></a>
+        <a
+          href="#home"
+          className="fa fa-instagram"
+          onClick={() => {
+            window.open(
+              "https://www.instagram.com/p/CYrTuvxhljw/?utm_medium=copy_link"
+            );
+          }}
+        ></a>
+        <a
+          href="#home"
+          className="fa fa-facebook-square"
+          onClick={() => {
+            window.open(
+              "https://www.facebook.com/MM-HOME-Creation-110538504852837/"
+            );
+          }}
+        ></a>
         <a href="#home" className="fa fa-youtube-play"></a>
       </div>
     </div>

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Badge, Col, Container, Row } from "react-bootstrap";
 import TopBannerComponent from "../components/TopBannerComponent";
 import styles from "../styles/pages.module.css";
@@ -19,20 +20,22 @@ export default function Home() {
       <div className={styles.div}>
         <Row>
           <Col md={12} lg={6} className={styles.gistImage}>
-            <img src="assets/fact.png" />
+            <img src="assets/fact.jpeg" />
           </Col>
           <Col md={12} lg={6} className={styles.gistText}>
             <div>
               <Badge>MM Home Creation .</Badge>
               <h1>FACTS .</h1>
               <p>
-                Dolor non qui cupidatat cillum nulla pariatur aliquip commodo
-                voluptate veniam pariatur labore adipisicing. Esse ut incididunt
-                aliqua consequat laborum est tempor incididunt. Nisi eiusmod
-                dolor est officia. Dolor non qui cupidatat cillum nulla pariatur
-                aliquip commodo voluptate veniam pariatur labore adipisicing.
-                Esse ut incididunt aliqua consequat laborum est tempor
-                incididunt. Nisi eiusmod dolor est officia.
+                MM HOME CREATION believe in not only in designing interiors, but
+                doing it passionately, intelligently, creatively, uniquely
+                elegantly & luxuriously. We always try to create creative
+                stylish luxurious affordable solution for your personal as well
+                as professional and commercial space. We believe in maximum
+                interaction and in depth discussions to understand your needs
+                and persona and accordingly, provide you with options that
+                satisfy your needs as well as your budget and are a reflection
+                of luxurious & creative design.
               </p>
               <hr width="40%" />
             </div>
@@ -48,11 +51,10 @@ export default function Home() {
               <Badge>MM Home Creation .</Badge>
               <h1>HOME .</h1>
               <p>
-                Dolor non qui cupidatat cillum nulla pariatur aliquip commodo
-                voluptate veniam pariatur labore adipisicing. Esse ut incididunt
-                aliqua consequat laborum est tempor incididunt. Nisi eiusmod
-                dolor est officia. Dolor non qui cupidatat cillum nulla pariatur
-                aliquip commodo voluptate veniam pariatur labore adipisicing.
+                Our vision is to be a quality driven Interiors Design and
+                Architectural Design consultancy services business in the
+                Commercial, Industrial & Residential Markets for qualified
+                Clients in all over West Bengal.
               </p>
               <hr width="40%" />
             </div>
@@ -82,16 +84,28 @@ export default function Home() {
           <h1>Hire Us!</h1>
           <Container>
             <p>
-              Ea aliqua officia est nostrud duis fugiat quis est qui occaecat
-              adipisicing voluptate eu occaecat. Dolor non laboris ex ipsum ea
-              officia tempor est ea aliqua mollit. Irure ipsum dolor consectetur
-              ipsum enim eiusmod aliqua ut non minim reprehenderit et. Consequat
-              voluptate proident ex dolor ut ullamco amet cillum ut do in. Et
-              velit dolor duis Lorem. Anim in ea laborum duis fugiat consequat
-              do. Commodo id esse magna culpa ullamco culpa aliquip enim.
+              MM HOME CREATION A Berhampore & Kolkata Based Residential which is
+              a Commercial Interior Designing and Decorating Company Established
+              by Mr Govinda Sharma along with Mr Pradip Marothi, In 2022.
             </p>
 
-            <button className="btn btn-custom">Hire Us . </button>
+            <p>
+              <h2>WHY US - </h2>
+              <ul>
+                <li>Creative, Vastu Approved Custom Made Designs,</li>
+                <li>Attention To Details With Quality Materials,</li>
+                <li>No Hidden Strategies,</li>
+                <li>Efficient & Effective Planning,</li>
+                <li>Professinal Executors/Labor/Designers,</li>
+                <li>On Time Delivery,</li>
+                <li>After sell Service,</li>
+                <li>Long-term Customer Relationship</li>
+              </ul>
+            </p>
+
+            <button className="btn btn-custom">
+              <Link href="contact">Contact Now</Link>
+            </button>
           </Container>
         </div>
       </div>

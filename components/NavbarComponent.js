@@ -49,10 +49,24 @@ function NavbarComponent() {
                 </h6>
               </Nav.Link>
               <Nav.Link>
-                <h6 className="fa fa-instagram"></h6>
+                <h6
+                  className="fa fa-instagram"
+                  onClick={() => {
+                    window.open(
+                      "https://www.instagram.com/p/CYrTuvxhljw/?utm_medium=copy_link"
+                    );
+                  }}
+                ></h6>
               </Nav.Link>
               <Nav.Link>
-                <h6 className="fa fa-facebook-square"></h6>
+                <h6
+                  className="fa fa-facebook-square"
+                  onClick={() => {
+                    window.open(
+                      "https://www.facebook.com/MM-HOME-Creation-110538504852837/"
+                    );
+                  }}
+                ></h6>
               </Nav.Link>
               <Nav.Link>
                 <h6 className="fa fa-youtube-play"></h6>

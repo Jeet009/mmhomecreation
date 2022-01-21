@@ -19,7 +19,7 @@ a {
   box-sizing: border-box;
 }
 a:hover {
-  color: aliceblue !important;
+  color: rgb(204, 204, 204) !important;
 }
 .navbar-light .navbar-toggler {
   border: none !important;

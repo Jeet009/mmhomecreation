@@ -41,7 +41,9 @@ function PortfolioModal() {
                 }}
               >
                 <div className={styles.overlay}>
-                  <h2>Office</h2>
+                  <h2 onClick={handleClose}>
+                    <Link href="/portfolio/office"> Office </Link>
+                  </h2>
                 </div>
               </div>
             </Col>
@@ -53,7 +55,9 @@ function PortfolioModal() {
                 }}
               >
                 <div className={styles.overlay}>
-                  <h2>Bedroom</h2>
+                  <h2 onClick={handleClose}>
+                    <Link href="/portfolio/bedroom"> Bedroom </Link>
+                  </h2>
                 </div>
               </div>
             </Col>
@@ -65,7 +69,9 @@ function PortfolioModal() {
                 }}
               >
                 <div className={styles.overlay}>
-                  <h2>Living Space</h2>
+                  <h2 onClick={handleClose}>
+                    <Link href="/portfolio/livingspace"> Living Space </Link>
+                  </h2>
                 </div>
               </div>
             </Col>
