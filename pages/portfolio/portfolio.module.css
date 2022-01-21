@@ -1,0 +1,28 @@
+.main {
+  min-height: 100vh;
+  background-image: url("../../public/assets/bg.png");
+}
+.bg {
+  background-color: aliceblue;
+  min-height: 50vh;
+  margin: 10px;
+
+  background-size: cover;
+  border-radius: 5px;
+}
+.container {
+  min-height: 100vh;
+  padding-bottom: 30px;
+}
+
+.container center {
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+.container h1 {
+  font-size: 10vh;
+  font-family: "Dancing Script", cursive;
+}
+.container h2 {
+  text-transform: uppercase;
+}

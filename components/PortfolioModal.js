@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React, { useContext, useState } from "react";
 import { Col, Modal, Row } from "react-bootstrap";
 import { ModalContext } from "../context/ModalContext";
@@ -26,7 +27,9 @@ function PortfolioModal() {
                 }}
               >
                 <div className={styles.overlay}>
-                  <h2>Kitchen</h2>
+                  <h2 onClick={handleClose}>
+                    <Link href="/portfolio/kitchen"> Kitchen </Link>
+                  </h2>
                 </div>
               </div>
             </Col>
