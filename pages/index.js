@@ -12,7 +12,7 @@ export default function Home() {
           h2: "HOME CREATION",
           h4: "Welcome To",
           imgUrl:
-            "https://images.pexels.com/photos/706144/pexels-photo-706144.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+            "https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
         }}
       />
 

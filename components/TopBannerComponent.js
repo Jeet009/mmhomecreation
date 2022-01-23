@@ -10,7 +10,7 @@ function TopBannerComponent({ data }) {
       <div className={styles.overlay}>
         <h4>{data.h4}</h4>
         <h1>{data.h1} </h1>
-        <h2>{data.h2} .</h2>
+        <h2>{data.h2} </h2>
       </div>
     </main>
   );
