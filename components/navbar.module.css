@@ -1,14 +1,17 @@
 .logo {
   color: rgb(0, 0, 0) !important;
 }
+.logo img {
+  width: 18vh;
+}
 .logo h1 {
   font-family: "Dancing Script", cursive;
 }
 .navbarBg {
-  background-color: #e6e6e6;
+  background-color: #1f1f1f;
   min-height: 15vh;
 }
 .navbarBg h6 {
   text-transform: uppercase;
-  color: rgb(0, 0, 0) !important;
+  color: rgb(255, 255, 255) !important;
 }

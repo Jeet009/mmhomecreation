@@ -10,8 +10,10 @@ function FooterWidget() {
   };
   return (
     <div className={styles.widget}>
-      <h1>MM</h1>
-      <h2>Home Creation .</h2>
+      <Link href="/">
+        <img src="/assets/logo.png" />
+      </Link>
+
       <hr color="white" width="50%" />
       <div className={styles.navItem}>
         <a href="#home" onClick={handleModalOpen}>

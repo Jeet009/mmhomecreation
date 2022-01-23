@@ -21,12 +21,13 @@ function NavbarComponent() {
         <Container className="navbar-container">
           {/* Logo  */}
           <Navbar.Brand className={styles.logo}>
-            <h1>
-              <Link href="/"> MM </Link>
-            </h1>
-            Home Creation.
+            <Link href="/">
+              <img src="/assets/logo.png" />
+            </Link>
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Toggle aria-controls="basic-navbar-nav">
+            <span className="fa fa-bars" style={{ color: "white" }}></span>
+          </Navbar.Toggle>
 
           {/* Buttomn */}
           <Navbar.Collapse
