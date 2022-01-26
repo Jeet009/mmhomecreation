@@ -15,8 +15,10 @@
   justify-content: center;
   align-items: center;
 
-  background-size: contain;
+  background-size: cover;
+  background-image: url("../public/assets/fact.jpg");
 }
+
 .gistText {
   min-height: 50vh;
   display: flex;

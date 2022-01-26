@@ -1,6 +1,7 @@
 import { Col, Container, Row } from "react-bootstrap";
 import styles from "./portfolio.module.css";
 import one from "../../public/assets/kitchen/one.jpeg";
+import last from "../../public/assets/kitchen/last.jpg";
 
 function kitchen() {
   return (
@@ -39,7 +40,8 @@ function kitchen() {
             <div
               className={styles.bg + " " + "shadow"}
               style={{
-                backgroundImage: `url(https://images.pexels.com/photos/210687/pexels-photo-210687.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)`,
+                backgroundImage: `url(${last.src})`,
+                backgroundPosition: "center",
               }}
             ></div>
           </Col>

@@ -2,6 +2,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import styles from "./portfolio.module.css";
 import one from "../../public/assets/bedroom/one.jpeg";
 import two from "../../public/assets/bedroom/two.jpeg";
+import last from "../../public/assets/bedroom/last.jpg";
 
 function bedroom() {
   return (
@@ -40,7 +41,7 @@ function bedroom() {
             <div
               className={styles.bg + " " + "shadow"}
               style={{
-                backgroundImage: `url(https://images.pexels.com/photos/164595/pexels-photo-164595.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)`,
+                backgroundImage: `url(${last.src})`,
               }}
             ></div>
           </Col>

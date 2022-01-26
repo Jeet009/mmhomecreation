@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Badge, Col, Container, Row } from "react-bootstrap";
 import TopBannerComponent from "../components/TopBannerComponent";
 import styles from "../styles/pages.module.css";
+import hero from "../public/assets/hero.jpg";
 
 export default function Home() {
   return (
@@ -11,17 +12,14 @@ export default function Home() {
           h1: "MM",
           h2: "HOME CREATION",
           h4: "Welcome To",
-          imgUrl:
-            "https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+          imgUrl: hero.src,
         }}
       />
 
       {/* Fact  */}
       <div className={styles.div}>
         <Row>
-          <Col md={12} lg={6} className={styles.gistImage}>
-            <img src="assets/fact.jpeg" />
-          </Col>
+          <Col md={12} lg={6} className={styles.gistImage}></Col>
           <Col md={12} lg={6} className={styles.gistText}>
             <div>
               <Badge>MM Home Creation .</Badge>
