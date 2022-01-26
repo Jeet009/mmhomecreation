@@ -1,5 +1,7 @@
 import { Col, Container, Row } from "react-bootstrap";
 import styles from "./portfolio.module.css";
+import one from "../../public/assets/bedroom/one.jpeg";
+import two from "../../public/assets/bedroom/two.jpeg";
 
 function bedroom() {
   return (
@@ -14,7 +16,7 @@ function bedroom() {
             <div
               className={styles.bg + " " + "shadow"}
               style={{
-                backgroundImage: `url(https://images.pexels.com/photos/90319/pexels-photo-90319.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)`,
+                backgroundImage: `url(${one.src})`,
               }}
             ></div>
           </Col>
@@ -22,7 +24,7 @@ function bedroom() {
             <div
               className={styles.bg + " " + "shadow"}
               style={{
-                backgroundImage: `url(https://images.pexels.com/photos/279746/pexels-photo-279746.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)`,
+                backgroundImage: `url(${two.src})`,
               }}
             ></div>
           </Col>

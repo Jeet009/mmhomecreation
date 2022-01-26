@@ -1,5 +1,9 @@
 import { Col, Container, Row } from "react-bootstrap";
 import styles from "./portfolio.module.css";
+import one from "../../public/assets/livingspace/one.jpeg";
+import two from "../../public/assets/livingspace/two.jpeg";
+import three from "../../public/assets/livingspace/three.jpeg";
+import four from "../../public/assets/livingspace/four.jpeg";
 
 function livingspace() {
   return (
@@ -14,7 +18,7 @@ function livingspace() {
             <div
               className={styles.bg + " " + "shadow"}
               style={{
-                backgroundImage: `url(https://images.pexels.com/photos/3797991/pexels-photo-3797991.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)`,
+                backgroundImage: `url(${one.src})`,
               }}
             ></div>
           </Col>
@@ -22,7 +26,7 @@ function livingspace() {
             <div
               className={styles.bg + " " + "shadow"}
               style={{
-                backgroundImage: `url(https://images.pexels.com/photos/3773572/pexels-photo-3773572.png?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)`,
+                backgroundImage: `url(${two.src})`,
               }}
             ></div>
           </Col>
@@ -30,7 +34,7 @@ function livingspace() {
             <div
               className={styles.bg + " " + "shadow"}
               style={{
-                backgroundImage: `url(https://images.pexels.com/photos/3457292/pexels-photo-3457292.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)`,
+                backgroundImage: `url(${three.src})`,
               }}
             ></div>
           </Col>
@@ -38,7 +42,7 @@ function livingspace() {
             <div
               className={styles.bg + " " + "shadow"}
               style={{
-                backgroundImage: `url(https://images.pexels.com/photos/6510948/pexels-photo-6510948.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)`,
+                backgroundImage: `url(${four.src})`,
               }}
             ></div>
           </Col>

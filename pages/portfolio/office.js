@@ -1,5 +1,9 @@
 import { Col, Container, Row } from "react-bootstrap";
 import styles from "./portfolio.module.css";
+import one from "../../public/assets/officespace/one.jpeg";
+import two from "../../public/assets/officespace/two.jpeg";
+import three from "../../public/assets/officespace/three.jpeg";
+import four from "../../public/assets/officespace/four.jpeg";
 
 function office() {
   return (
@@ -14,7 +18,7 @@ function office() {
             <div
               className={styles.bg + " " + "shadow"}
               style={{
-                backgroundImage: `url(https://images.pexels.com/photos/1170412/pexels-photo-1170412.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)`,
+                backgroundImage: `url(${one.src})`,
               }}
             ></div>
           </Col>
@@ -22,7 +26,7 @@ function office() {
             <div
               className={styles.bg + " " + "shadow"}
               style={{
-                backgroundImage: `url(https://images.pexels.com/photos/380769/pexels-photo-380769.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)`,
+                backgroundImage: `url(${two.src})`,
               }}
             ></div>
           </Col>
@@ -30,7 +34,7 @@ function office() {
             <div
               className={styles.bg + " " + "shadow"}
               style={{
-                backgroundImage: `url(https://images.pexels.com/photos/245240/pexels-photo-245240.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)`,
+                backgroundImage: `url(${three.src})`,
               }}
             ></div>
           </Col>
@@ -38,7 +42,7 @@ function office() {
             <div
               className={styles.bg + " " + "shadow"}
               style={{
-                backgroundImage: `url(https://images.pexels.com/photos/667838/pexels-photo-667838.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)`,
+                backgroundImage: `url(${four.src})`,
               }}
             ></div>
           </Col>
