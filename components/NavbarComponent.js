@@ -54,7 +54,7 @@ function NavbarComponent() {
                   className="fa fa-instagram"
                   onClick={() => {
                     window.open(
-                      "https://www.instagram.com/p/CYrTuvxhljw/?utm_medium=copy_link"
+                      "https://instagram.com/mm_home_creation?utm_medium=copy_link"
                     );
                   }}
                 ></h6>
